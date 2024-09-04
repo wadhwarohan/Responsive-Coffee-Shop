@@ -423,6 +423,44 @@ height:10rem;
     color:#ccc;
     padding:1rem 0;
 }
+.footer{
+    background:var(--black);
+    text-align:center;
+}
+.footer .share{
+    padding:1rem 0;
+}
+.footer .share a{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:.2rem solid white;
+    margin:.3rem;
+    border-radius:50%;
+}
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+.footer .links{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:2rem 0;
+    gap:1rem;
+    
+}
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:.2rem solid white;
+    font-size:2rem;
+}
+.footer .links a:hover{
+background:var(--main-color);
+}
+
 
 
 
@@ -451,8 +489,7 @@ height:10rem;
     .header .navbar{
         position:absolute;
         top:100%;right: -100%;
-        background: #c79e9e;
-        background: 30rem;
+        background:#ccc;
         width:30rem;
         height: calc(100vh-9.5rem);
     }
